@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "FacetecSDK"
-  spec.version      = "9.7.63"
+  spec.version      = "9.7.64"
   spec.summary      = "FacetecSDK is a SDK for Enrollment."
 
   spec.description  = "description for: FacetecSDK is a SDK for Enrollment."
@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   # Add this line to specify supported Swift versions
   spec.swift_versions = ['4.0', '4.2', '5.0', '5.1', '5.2', '5.3', '5.4', '5.5']
 
-  spec.source       = { :path => "" }
+  spec.source       = { :git => "https://github.com/c0909h1179/facetec-ios-sdk.git", :tag => '9.7.64' }
 
 
   #spec.exclude_files = "Classes/Exclude"
